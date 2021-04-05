@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #00ced1;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="by.bsuir.Controller">
+   <children>
+      <Button fx:id="btn_choose" layoutX="251.0" layoutY="40.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="98.0" text="Выбрать файл" />
+      <CheckBox fx:id="check_rail" layoutX="118.0" layoutY="91.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="98.0" text="Изгородь" />
+      <CheckBox fx:id="check_grid" layoutX="252.0" layoutY="91.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="98.0" text="Решетка" />
+      <CheckBox fx:id="check_vig" layoutX="383.0" layoutY="91.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="98.0" text="Виженер" />
+      <TextField fx:id="key_field" layoutX="151.0" layoutY="185.0" prefHeight="30.0" prefWidth="299.0" promptText="Введите ключ" style="-fx-background-radius: 5px;" />
+      <CheckBox fx:id="check_encrypt" layoutX="181.0" layoutY="143.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="98.0" text="Зашифровать" />
+      <CheckBox fx:id="check_decrypt" layoutX="323.0" layoutY="143.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="110.0" text="Расшифровать" />
+      <Button fx:id="btn_start" layoutX="252.0" layoutY="244.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="98.0" text="Начать" />
+      <Label fx:id="label_text" alignment="TOP_LEFT" layoutX="10.0" layoutY="283.0" prefHeight="110.0" prefWidth="583.0" style="-fx-background-color: white;" wrapText="true" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+   </children>
+</AnchorPane>
